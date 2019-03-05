@@ -19,6 +19,10 @@
   color: white;
 }
 
+.row--header {
+  border-radius: 0 !important;
+}
+
 .App-link {
   color: #61dafb;
 }

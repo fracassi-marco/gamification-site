@@ -1,0 +1,16 @@
+{"activities": [
+    {
+        "author":"MAF", 
+        "date":"2018-01-01",
+        "links":[{"type":"slide", "url": "http://any.com"}, {"type":"slide", "url": "http://any.com"}],
+        "type":"presentation",
+        "title":"agile è chi agile fa"
+    },
+    {
+        "author":"COA", 
+        "date":"2019-01-01",
+        "links":[{"type":"video", "url": "http://any.com"}],
+        "type":"presentation",
+        "title":"serverless in action"
+    }
+]}
