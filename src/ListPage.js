@@ -35,7 +35,6 @@ class ListPage extends Component {
                       <div className="row-team">{activity.type}</div>
                       <div className="row-team">{activity.title}</div>
                       <div className="row-rank">
-                      {console.log(activity)}
                       {activity.links.map((link, link_index) =>
                         <a key={'link' + index + link_index} href="{link.url}">{link.type}</a>
                       ).reduce((prev, curr) => [prev, ', ', curr])}

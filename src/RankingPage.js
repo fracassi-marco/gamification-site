@@ -4,22 +4,22 @@ import Menu from './Menu';
 class RankingPage extends React.Component {
     render() {
         return (
-          <div class="leaderboard flex column wrap">
-          <div class="leaderboard-table flex column">
-            <div class="leaderboard-header flex column grow">
+          <div className="leaderboard flex column wrap">
+          <div className="leaderboard-table flex column">
+            <div className="leaderboard-header flex column grow">
     
               <Menu selected="ranking"></Menu>
     
-              <div class="leaderboard-row flex align-center row--header">
-                <div class="row-position">#</div>
-                <div class="row-collapse flex align-center">
-                  <div class="row-user--header">Punteggio</div>
-                  <div class="row-rank--header">Autore</div>                  
+              <div className="leaderboard-row flex align-center row--header">
+                <div className="row-position">#</div>
+                <div className="row-collapse flex align-center">
+                  <div className="row-user--header">Punteggio</div>
+                  <div className="row-rank--header">Autore</div>                  
                 </div>            
               </div>
             </div>
     
-            <div class="leaderboard-body flex column grow">
+            <div className="leaderboard-body flex column grow">
               <div>        
                 <ul>                  
                 </ul>

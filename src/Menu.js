@@ -14,7 +14,7 @@ class  Menu extends Component {
             <div className="filter-by flex grow wrap">            
                 <div className="time-filter flex grow">
                     {pages.map((page, index) =>                                                             
-                    <div key={'page' + index} className={"row-button pointer align-center " + (page.code == this.props.selected ? 'row-button--active' : '')}>
+                    <div key={'page' + index} className={"row-button pointer align-center " + (page.code === this.props.selected ? 'row-button--active' : '')}>
                         <Link to={page.url}>{page.name}</Link>
                     </div>    
                     )}  
