@@ -24,8 +24,7 @@ class ListPage extends Component {
 
 
         <div className="leaderboard-body flex column grow">
-          <div>        
-            <ul>
+
               {this.props.activities.map((activity, index) =>       
                 <div key={'activity' + index} className="leaderboard-row flex align-center">
                   <div className="row-position">{activity.date}</div>
@@ -44,13 +43,8 @@ class ListPage extends Component {
                   </div>          
                 </div>
               )}
-            </ul>
           </div>
-        </div>
-        <div className="leaderboard-footer flex align-center">
-          Page 1 of 2 <a className="footer-btn pointer">Next</a> 25 of 37 items
-        </div>
-        <button onClick={this.props.doSomeEvent}>doSomeEvent</button>
+        {/*<button onClick={this.props.doSomeEvent}>doSomeEvent</button>*/}
       </div>
 
     </div>
