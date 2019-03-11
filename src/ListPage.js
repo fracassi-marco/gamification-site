@@ -24,24 +24,23 @@ class ListPage extends Component {
 
 
         <div className="leaderboard-body flex column grow">
-
-              {this.props.activities.map((activity, index) =>       
-                <div key={'activity' + index} className="leaderboard-row flex align-center">
-                  <div className="row-position">{activity.date}</div>
-                  <div className="row-collapse flex align-center">
-                      <div className="row-caller flex">                  
-                        <div className="row-user">{activity.author}</div>
-                      </div>                 
-                      <div className="row-team">{activity.type}</div>
-                      <div className="row-team">{activity.title}</div>
-                      <div className="row-rank">
-                      {activity.links.map((link, link_index) =>
-                        <a key={'link' + index + link_index} href="{link.url}">{link.type}</a>
-                      ).reduce((prev, curr) => [prev, ', ', curr])}
-                      </div>
-                  </div>          
-                </div>
-              )}
+            {this.props.activities.map((activity, index) =>       
+              <div key={'activity' + index} className="leaderboard-row flex align-center">
+                <div className="row-position">{activity.date}</div>
+                <div className="row-collapse flex align-center">
+                    <div className="row-caller flex">                  
+                      <div className="row-user">{activity.author}</div>
+                    </div>                 
+                    <div className="row-team">{activity.type}</div>
+                    <div className="row-team">{activity.title}</div>
+                    <div className="row-rank">
+                    {activity.links.map((link, link_index) =>
+                      <a key={'link' + index + link_index} href="{link.url}">{link.type}</a>
+                    ).reduce((prev, curr) => [prev, ', ', curr])}
+                    </div>
+                </div>          
+              </div>
+            )}
           </div>
         {/*<button onClick={this.props.doSomeEvent}>doSomeEvent</button>*/}
       </div>
