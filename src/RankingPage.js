@@ -1,16 +1,28 @@
-import React from 'react';
-import Menu from './Menu';
+import React from 'react'
+import Menu from './Menu'
 
-var groupBy = function (xs, key) {
-  return xs.reduce(function (rv, x) {
-    (rv[x[key]] = rv[x[key]] || []).push(x);
-    return rv;
-  }, {});
-};
+function groupBy (xs, key) {
+  return Object.entries(xs.reduce(function (rv, x) {
+    (rv[x[key]] = rv[x[key]] || []).push(x)
+    return rv
+  }, {}))
+}
+
+function pointsOf(authorActivities) {
+  return authorActivities.reduce((points, currentActivity) => {
+    currentActivity.type === 'presentation' ? points+=3 : points++
+    return points
+  }, 0)
+}
+
+function byPoints(a, b) {
+  return pointsOf(a[1]) < pointsOf(b[1]) ? 1 : -1
+}
 
 class RankingPage extends React.Component {
   render() {
-    let group = Object.entries(groupBy(this.props.activities, "author"))
+    var group = groupBy(this.props.activities, "author")
+      .sort(byPoints)
 
     return (
         <div className="leaderboard flex column wrap">
@@ -33,7 +45,7 @@ class RankingPage extends React.Component {
                     <div className="row-caller flex">
                       <div className="row-user">{entry[0]}</div>
                     </div>
-                    <div className="row-team">{entry[1].length * 3}</div>
+                    <div className="row-team">{pointsOf(entry[1])}</div>
                   </div>
                 </div>
               )}
@@ -44,4 +56,4 @@ class RankingPage extends React.Component {
     }
   }
 
-  export default RankingPage;
+  export default RankingPage

@@ -21,19 +21,15 @@ class ListPage extends Component {
             </div>            
           </div>
         </div>
-
-
         <div className="leaderboard-body flex column grow">
-            {this.props.activities.map((activity, index) =>       
+            {this.props.activities.sort((a, b) => a.date < b.date).map((activity, index) =>       
               <div key={'activity' + index} className="leaderboard-row flex align-center">
                 <div className="row-position">{activity.date}</div>
                 <div className="row-collapse flex align-center">
-                    <div className="row-caller flex">                  
-                      <div className="row-user">{activity.author}</div>
-                    </div>                 
-                    <div className="row-team">{activity.type}</div>
+                    <div className="row-user">{activity.author}</div>
+                    <div className="row-rank">{activity.type}</div>
                     <div className="row-team">{activity.title}</div>
-                    <div className="row-rank">
+                    <div className="row-team">
                     {activity.links.map((link, link_index) =>
                       <a key={'link' + index + link_index} href="{link.url}">{link.type}</a>
                     ).reduce((prev, curr) => [prev, ', ', curr])}

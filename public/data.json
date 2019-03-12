@@ -13,4 +13,12 @@
         "type":"presentation",
         "title":"serverless in action"
     }
+    ,
+    {
+        "author":"COA", 
+        "date":"2017-01-01",
+        "links":[{"type":"slide", "url": "http://any.com"}],
+        "type":"facilitazione",
+        "title":"retrospettiva Trento"
+    }
 ]}
