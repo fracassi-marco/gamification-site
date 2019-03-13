@@ -26,7 +26,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter basename={'/gamification-site'}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className='router a1'>
               <Route exact path="/" render={() => <ListPage doSomeEvent={this.doSomeEvent.bind(this)} activities={this.state.activities}/>}/>
               <Route path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
