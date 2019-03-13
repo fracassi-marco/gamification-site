@@ -5,43 +5,37 @@ import Menu from './Menu';
 class ListPage extends Component {
   render() {
     return (
-      <div className="leaderboard flex column wrap">
-      <div className="leaderboard-table flex column">
-        <div className="leaderboard-header flex column grow">
-
-          <Menu selected="list"></Menu>
-
-          <div className="leaderboard-row flex align-center row--header">
-            <div className="row-position">Data</div>
-            <div className="row-collapse flex align-center">
-              <div className="row-user--header">Autore</div>
-              <div className="row-rank--header">Tipo</div>
-              <div className="row-team--header">Titolo</div>
-              <div className="row-team--header">Links</div>
-            </div>            
-          </div>
-        </div>
-        <div className="leaderboard-body flex column grow">
-            {this.props.activities.sort((a, b) => a.date < b.date).map((activity, index) =>       
-              <div key={'activity' + index} className="leaderboard-row flex align-center">
-                <div className="row-position">{activity.date}</div>
-                <div className="row-collapse flex align-center">
-                    <div className="row-user">{activity.author}</div>
-                    <div className="row-rank">{activity.type}</div>
-                    <div className="row-team">{activity.title}</div>
-                    <div className="row-team">
-                    {activity.links.map((link, link_index) =>
+      <div>
+        <Menu selected="list"></Menu>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Author</th>
+                <th scope="col">Type</th>
+                <th scope="col">Title</th>
+                <th scope="col">Links</th>
+              </tr>
+            </thead>
+            <tbody>
+            {this.props.activities.sort((a, b) => a.date < b.date).map((activity, index) => 
+              <tr key={'activity' + index}>
+                <td>{activity.date}</td>
+                <td>{activity.author}</td>
+                <td>{activity.type}</td>
+                <td>{activity.title}</td>
+                <td>
+                {activity.links.map((link, link_index) =>
                       <a key={'link' + index + link_index} href="{link.url}">{link.type}</a>
                     ).reduce((prev, curr) => [prev, ', ', curr])}
-                    </div>
-                </div>          
-              </div>
-            )}
-          </div>
-        {/*<button onClick={this.props.doSomeEvent}>doSomeEvent</button>*/}
+                </td>
+              </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
       </div>
-
-    </div>
     );
   }
 }
