@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3dfc179a385a3dc057fc",
+    "revision": "8fd64f0718c3587b6f28",
     "url": "/gamification-site/static/css/main.145cd79f.chunk.css"
   },
   {
-    "revision": "3dfc179a385a3dc057fc",
-    "url": "/gamification-site/static/js/main.4c076eed.chunk.js"
+    "revision": "8fd64f0718c3587b6f28",
+    "url": "/gamification-site/static/js/main.b17c1782.chunk.js"
   },
   {
     "revision": "b962733069787b91ecc5",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/gamification-site/static/js/2.962eb08e.chunk.js"
   },
   {
-    "revision": "98efc8adc000b2902dfc576c152b9ba2",
+    "revision": "460272f6091a16ebaf6ebcfdf5e5a4a6",
     "url": "/gamification-site/index.html"
   }
 ];
