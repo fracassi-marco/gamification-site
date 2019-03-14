@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/gamification-site/static/js/2.c264c6ae.chunk.js"
   },
   {
-    "revision": "3e27103f5fea91b9b0bec92de78e611e",
+    "revision": "3ca501686b30c8a9a8243bf26a47e7fd",
     "url": "/gamification-site/index.html"
   }
 ];
