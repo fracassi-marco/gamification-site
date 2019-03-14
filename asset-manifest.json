@@ -1,5 +1,5 @@
 {
-  "main.css": "/gamification-site/static/css/main.2ca8066d.chunk.css",
+  "main.css": "/gamification-site/static/css/main.85fa3aae.chunk.css",
   "main.js": "/gamification-site/static/js/main.2ea33a0f.chunk.js",
   "main.js.map": "/gamification-site/static/js/main.2ea33a0f.chunk.js.map",
   "runtime~main.js": "/gamification-site/static/js/runtime~main.c5ab8a10.js",
@@ -7,7 +7,7 @@
   "static/js/2.c264c6ae.chunk.js": "/gamification-site/static/js/2.c264c6ae.chunk.js",
   "static/js/2.c264c6ae.chunk.js.map": "/gamification-site/static/js/2.c264c6ae.chunk.js.map",
   "index.html": "/gamification-site/index.html",
-  "precache-manifest.747e34ad673693d413bc75789d4f249c.js": "/gamification-site/precache-manifest.747e34ad673693d413bc75789d4f249c.js",
+  "precache-manifest.99239b0818390aff8660209134a5875a.js": "/gamification-site/precache-manifest.99239b0818390aff8660209134a5875a.js",
   "service-worker.js": "/gamification-site/service-worker.js",
-  "static/css/main.2ca8066d.chunk.css.map": "/gamification-site/static/css/main.2ca8066d.chunk.css.map"
+  "static/css/main.85fa3aae.chunk.css.map": "/gamification-site/static/css/main.85fa3aae.chunk.css.map"
 }
