@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './ListPage.css';
 import Menu from './Menu';
 
 class ListPage extends Component {
