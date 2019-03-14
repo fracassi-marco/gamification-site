@@ -9,6 +9,7 @@ body {
 
 .navbar {
     border-bottom: 1px solid #ddd;
+    background-color: white;
 }
 
 a, .navbar-light .navbar-brand {
@@ -30,4 +31,12 @@ a, .navbar-light .navbar-brand {
 
 .nav li.active a {
     color: white;
+}
+
+.date {
+    width: 115px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) { 
+    background-color: #fbfbfb;
 }

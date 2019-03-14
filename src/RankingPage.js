@@ -10,6 +10,9 @@ function groupBy (xs, key) {
 
 function pointsOf(authorActivities) {
   return authorActivities.reduce((points, currentActivity) => {
+    if(currentActivity.date === '') {
+      return points
+    }
     currentActivity.type === 'presentation' ? points+=3 : points++
     return points
   }, 0)
@@ -28,7 +31,7 @@ class RankingPage extends React.Component {
       <div>
         <Menu selected="ranking"></Menu>
         <div className="table-responsive">
-          <table className="table">
+          <table className="table table-striped">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -40,8 +43,8 @@ class RankingPage extends React.Component {
             {group.map((entry, index) =>
               <tr key={'group' + index}>
                 <td>{index + 1}</td>
-                <td>{entry[0]}</td>
-                <td>{pointsOf(entry[1])}</td>                
+                <td>{pointsOf(entry[1])}</td>  
+                <td>{entry[0]}</td>                              
               </tr>
               )}
             </tbody>
