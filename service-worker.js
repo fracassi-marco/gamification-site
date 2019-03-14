@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gamification-site/precache-manifest.9befc520989db0695e0140db7eeab62b.js"
+  "/gamification-site/precache-manifest.a89696c8e23d8b1726a12db1ca41066c.js"
 );
 
 workbox.clientsClaim();
