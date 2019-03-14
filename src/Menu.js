@@ -9,7 +9,7 @@ class Menu extends Component {
         ];
 
         return (
-            <ul class="nav">
+            <ul className="nav">
                 {pages.map((page, index) =>
                     <li key={'page' + index} className={"nav-item " + (page.code === this.props.selected ? 'row-button--active' : '')}>
                         <Link to={page.url} className="nav-link active">{page.name}</Link>

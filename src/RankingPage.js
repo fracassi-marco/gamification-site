@@ -27,8 +27,8 @@ class RankingPage extends React.Component {
     return (
       <div>
         <Menu selected="list"></Menu>
-        <div class="table-responsive">
-          <table class="table">
+        <div className="table-responsive">
+          <table className="table">
             <thead>
               <tr>
                 <th scope="col">#</th>
