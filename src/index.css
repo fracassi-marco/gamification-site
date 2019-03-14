@@ -1,7 +1,25 @@
 body {
     padding-top: 5rem;
-  }
-  .starter-template {
+}
+
+.starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
-  }
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+a, .navbar-light .navbar-brand {
+    color: #d9002a;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav li {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+}
