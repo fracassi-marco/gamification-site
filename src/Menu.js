@@ -11,8 +11,8 @@ class Menu extends Component {
         return (
             <ul className="nav">
                 {pages.map((page, index) =>
-                    <li key={'page' + index} className={"nav-item " + (page.code === this.props.selected ? 'row-button--active' : '')}>
-                        <Link to={page.url} className="nav-link active">{page.name}</Link>
+                    <li key={'page' + index} className={"nav-item " + (page.code === this.props.selected ? 'active' : '')}>
+                        <Link to={page.url} className="nav-link">{page.name}</Link>
                     </li>
                 )}
             </ul>

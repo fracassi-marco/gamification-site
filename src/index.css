@@ -20,6 +20,14 @@ a, .navbar-light .navbar-brand {
 }
 
 .nav li {
-    background-color: #efefef;
-    border: 1px solid #ccc;
+    min-width: 120px;
+    border: 1px solid #ddd;
+}
+
+.nav li.active {
+    background-color: #d9002a;
+}
+
+.nav li.active a {
+    color: white;
 }
