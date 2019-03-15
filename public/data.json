@@ -1,416 +1,760 @@
-{"activities":[
+{
+  "activities": [
+    {
+      "title": "Retrospettiva Trento",
+      "type": "facilitation",
+      "author": "IVO",
+      "date": "2019-03-08",
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2019-03-08-lean-coffee-trento/7610"
+        }
+      ]
+    },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "MAF",
       "date": "2019-02-22",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/2018-02-22-retrospettiva-trento/7565"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2018-02-22-retrospettiva-trento/7565"
+        }
+      ]
     },
     {
       "title": "Mindfulness al lavoro",
       "type": "presentation",
       "author": "MAF",
       "date": "2019-02-20",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/19E2k9hJiCjuSWfaNHPKrL1rA5ZKePcOj/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/file/d/19E2k9hJiCjuSWfaNHPKrL1rA5ZKePcOj/view?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Integrated Tests Are A Scam",
       "type": "presentation",
       "author": "PAE",
       "date": "2019-02-18",
-      "links": [{"type":"slide", "url": "video: https://drive.google.com/file/d/1TgGXaJ2LMpl-6HAb3qWgZITo9iglRiET/view?usp=sharing\nslides: https://docs.google.com/presentation/d/1q_OWYM5sK3EaFXDYOQJQlXS_u7MHqLesmDNYmP6CcKo/edit?usp=sharing"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "video: https://drive.google.com/file/d/1TgGXaJ2LMpl-6HAb3qWgZITo9iglRiET/view?usp=sharing"
+        },
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1q_OWYM5sK3EaFXDYOQJQlXS_u7MHqLesmDNYmP6CcKo/edit?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Xp vs. Scrum values | XP Explained - 1st vs. 2nd edition",
       "type": "presentation",
       "author": "SEO",
       "date": "2019-02-12",
-      "links": [{"type":"slide", "url": "https://docs.google.com/presentation/d/1d-7Mmr0GN4O25zu1Ta204ht3ZIbfJPokDerzqhKPXTE/edit?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1d-7Mmr0GN4O25zu1Ta204ht3ZIbfJPokDerzqhKPXTE/edit?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Come nasce un Agile Coach",
       "type": "presentation",
       "author": "MAF",
       "date": "2019-02-06",
-      "links": [{"type":"slide", "url": "https://drive.google.com/open?id=17gZ_T8OvVlsfmGta-zG_h76NzHDLDSC2"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/open?id=17gZ_T8OvVlsfmGta-zG_h76NzHDLDSC2"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "MAF",
       "date": "2019-01-31",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/2019-01-31-retrospettiva-sede-trento/7463/2"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2019-01-31-retrospettiva-sede-trento/7463/2"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "MAF",
       "date": "2019-01-24",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/2019-01-24-retrospettiva-di-sede-a-trento/7429"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2019-01-24-retrospettiva-di-sede-a-trento/7429"
+        }
+      ]
     },
     {
       "title": "Ansible",
       "type": "presentation",
       "author": "ROF",
       "date": "2019-01-10",
-      "links": [{"type":"slide", "url": "video: https://drive.google.com/open?id=16p1ebo6QpsNH0yB6yDykYhsHGKea4NYL\nslides: https://docs.google.com/presentation/d/1VhCDK9f7FKfO6fypbI9J_LxpU_m8StbCPFDEb6CEIwU/edit?usp=sharing"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/open?id=16p1ebo6QpsNH0yB6yDykYhsHGKea4NYL"
+        },
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1VhCDK9f7FKfO6fypbI9J_LxpU_m8StbCPFDEb6CEIwU/edit?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Presentazione 3-DS 2",
       "type": "presentation",
       "author": "PAE",
       "date": "2019-01-04",
-      "links": [{"type":"slide", "url": "video: https://drive.google.com/drive/folders/1VkIzbFdfB_EhfIEdcy0GrlBAcbZ4cO58\nslides: https://docs.google.com/presentation/d/19EXhRAzNLhbWIiGOb6GrCd2VgkBNQ4s4VKs9i2TCfCg/edit#slide=id.p1"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/drive/folders/1VkIzbFdfB_EhfIEdcy0GrlBAcbZ4cO58"
+        },
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/19EXhRAzNLhbWIiGOb6GrCd2VgkBNQ4s4VKs9i2TCfCg/edit#slide=id.p1"
+        }
+      ]
     },
     {
       "title": "Presentazione 3-DS 2",
       "type": "presentation",
       "author": "VAM",
       "date": "2019-01-04",
-      "links": [{"type":"slide", "url": "video: https://drive.google.com/drive/folders/1VkIzbFdfB_EhfIEdcy0GrlBAcbZ4cO58\nslides: https://docs.google.com/presentation/d/19EXhRAzNLhbWIiGOb6GrCd2VgkBNQ4s4VKs9i2TCfCg/edit#slide=id.p1"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/drive/folders/1VkIzbFdfB_EhfIEdcy0GrlBAcbZ4cO58"
+        },
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/19EXhRAzNLhbWIiGOb6GrCd2VgkBNQ4s4VKs9i2TCfCg/edit#slide=id.p1"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "MAF",
       "date": "2018-12-14",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/2018-12-14-retrospettiva-di-sede-a-trento/7249"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2018-12-14-retrospettiva-di-sede-a-trento/7249"
+        }
+      ]
     },
     {
       "title": "Complex Adaptive Sytem e Self management",
       "type": "presentation",
       "author": "TRK",
       "date": "2018-12-11",
-      "links": [{"type":"slide", "url": "video: https://drive.google.com/open?id=11xtHTMvTMJY-6WyNjn83aPqSXdu6Ffsg\nslides: https://www.slideshare.net/Trink0/complex-adaptive-systems-and-self-management"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/open?id=11xtHTMvTMJY-6WyNjn83aPqSXdu6Ffsg"
+        },
+        {
+          "type": "slides",
+          "url": "https://www.slideshare.net/Trink0/complex-adaptive-systems-and-self-management"
+        }
+      ]
     },
     {
       "title": "Statistical forecasting - Come arrivare a una valutazione dei costi di un progetto senza fare stima",
       "type": "presentation",
       "author": "DIP",
       "date": "2018-12-10",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "PAD",
       "date": "2018-12-07",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/retrospettiva-team-trento-7-dicembre/7213"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/retrospettiva-team-trento-7-dicembre/7213"
+        }
+      ]
     },
     {
       "title": "Serverless",
       "type": "presentation",
       "author": "COA",
       "date": "2018-12-06",
-      "links": [{"type":"slide", "url": "Registrazione: https://drive.google.com/a/xpeppers.com/file/d/15T0jOOHLtrpYaVZZ_wD6JuaeJhq_5Yjk/view?usp=drivesdk\nSlides: https://docs.google.com/presentation/d/1FqpNOXdri4qDvdqW9n_xI9O4s7aCQbobP_-_lfuh9zI/edit?pli=1#slide=id.p"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/a/xpeppers.com/file/d/15T0jOOHLtrpYaVZZ_wD6JuaeJhq_5Yjk/view?usp=drivesdk"
+        },
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1FqpNOXdri4qDvdqW9n_xI9O4s7aCQbobP_-_lfuh9zI/edit?pli=1#slide=id.p"
+        }
+      ]
     },
     {
       "title": "Architettura esagonale",
       "type": "presentation",
       "author": "PAD",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Kotlin coroutines",
       "type": "presentation",
       "author": "BEA",
       "date": "2018-11-29",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/1PP8hRX3aCN67iflMgdKqE1O3GoGR0VIE/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/file/d/1PP8hRX3aCN67iflMgdKqE1O3GoGR0VIE/view?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Core Design Principles for Software Developers",
       "type": "presentation",
       "author": "PAE",
       "date": "2018-11-26",
-      "links": [{"type":"slide", "url": "https://docs.google.com/presentation/d/1kweKcVu0XXTDhHxaqThKDm3wlorf5wrtoX1dVcGT-rs/edit#slide=id.p"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1kweKcVu0XXTDhHxaqThKDm3wlorf5wrtoX1dVcGT-rs/edit#slide=id.p"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "IVO",
       "date": "2018-11-23",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/energizing-retrospective-23-11-2018/7139"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/energizing-retrospective-23-11-2018/7139"
+        }
+      ]
     },
     {
       "title": "Vue Js",
       "type": "presentation",
       "author": "DAM",
       "date": "2018-11-21",
-      "links": [{"type":"slide", "url": "https://drive.google.com/open?id=1D3_AfSHyPIk4Rf_8u0wy_lhGLrvTp-36"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/open?id=1D3_AfSHyPIk4Rf_8u0wy_lhGLrvTp-36"
+        }
+      ]
     },
     {
       "title": "Improve your public speaking",
       "type": "presentation",
       "author": "MAF",
       "date": "2018-11-19",
-      "links": [{"type":"slide", "url": "https://drive.google.com/open?id=1S3rNRF6_INVgsHK4SE_adGDqsFuV9kfx"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/open?id=1S3rNRF6_INVgsHK4SE_adGDqsFuV9kfx"
+        }
+      ]
     },
     {
       "title": "Docker",
       "type": "presentation",
       "author": "PAD",
       "date": "2018-11-12",
-      "links": [{"type":"slide", "url": "Non c'è il materiale :("}]
+      "links": [
+        {
+          "type": "-",
+          "url": "-"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "COA",
       "date": "2018-11-09",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/9-novembre-retrospective-trento/7030"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/9-novembre-retrospective-trento/7030"
+        }
+      ]
     },
     {
       "title": "Beyond Java8 - Java Migration and the new Java ecosystem",
       "type": "presentation",
       "author": "DIP",
       "date": "2018-11-07",
-      "links": [{"type":"slide", "url": "https://drive.google.com/drive/folders/1imziULuQ7mazkGP_9ZKDBv11g3Bjib8Q"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/drive/folders/1imziULuQ7mazkGP_9ZKDBv11g3Bjib8Q"
+        }
+      ]
     },
     {
       "title": "Browser acceptance test driven development",
       "type": "presentation",
       "author": "FIL",
       "date": "2018-11-05",
-      "links": [{"type":"slide", "url": "https://www.slideshare.net/filippo-liverani/browser-acceptance-test-driven-development"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://www.slideshare.net/filippo-liverani/browser-acceptance-test-driven-development"
+        }
+      ]
     },
     {
       "title": "Public Key Infrastructure",
       "type": "presentation",
       "author": "BOD",
       "date": "2018-10-26",
-      "links": [{"type":"slide", "url": "https://docs.google.com/presentation/d/1GiaTazf3lqS1AdZVX3I-Z_qicJOQX8ikIqVLBLfTtuo/edit?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1GiaTazf3lqS1AdZVX3I-Z_qicJOQX8ikIqVLBLfTtuo/edit?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Public Key Infrastructure",
       "type": "presentation",
       "author": "FOD",
       "date": "2018-10-26",
-      "links": [{"type":"slide", "url": "https://docs.google.com/presentation/d/1GiaTazf3lqS1AdZVX3I-Z_qicJOQX8ikIqVLBLfTtuo/edit?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://docs.google.com/presentation/d/1GiaTazf3lqS1AdZVX3I-Z_qicJOQX8ikIqVLBLfTtuo/edit?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "BEA",
       "date": "2018-10-26",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/26-ottobre-2018-retrospective-team-trento/6953"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/26-ottobre-2018-retrospective-team-trento/6953"
+        }
+      ]
     },
     {
       "title": "Artifacts evolution",
       "type": "presentation",
       "author": "MAF",
       "date": "2018-10-12",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/10QRg_6j-LVPDy-A0ut69Qqz5cuevXOB-/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/file/d/10QRg_6j-LVPDy-A0ut69Qqz5cuevXOB-/view?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Solid",
       "type": "presentation",
       "author": "MOG",
       "date": "2018-10-10",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/15wqz39jVh12uLT3qSktsNz_YAVZC1WvU/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://drive.google.com/file/d/15wqz39jVh12uLT3qSktsNz_YAVZC1WvU/view?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Riassunto sclondon",
       "type": "presentation",
       "author": "MED",
       "date": "2018-10-08",
-      "links": [{"type":"slide", "url": "https://drive.google.com/drive/folders/1VTyl_EYcxT2K-l4lucorlQmNyDyAG1TF"}]
+      "links": [
+        {
+          "type": "video",
+          "url": "https://drive.google.com/drive/folders/1VTyl_EYcxT2K-l4lucorlQmNyDyAG1TF"
+        }
+      ]
     },
     {
       "title": "Architettura a microservizi",
       "type": "presentation",
       "author": "PAD",
       "date": "2018-09-24",
-      "links": [{"type":"slide", "url": "https://github.com/pdincau/book-evaluation \nhttps://github.com/pdincau/book-service \nhttps://github.com/pdincau/config-server \nhttps://github.com/pdincau/api-gateway"}]
+      "links": [
+        {
+          "type": "repo",
+          "url": "https://github.com/pdincau/book-evaluation"
+        },
+        {
+          "type": "repo",
+          "url": "https://github.com/pdincau/book-service"
+        },
+        {
+          "type": "repo",
+          "url": "https://github.com/pdincau/config-server"
+        },
+        {
+          "type": "repo",
+          "url": "https://github.com/pdincau/api-gateway"
+        }
+      ]
     },
     {
       "title": "Keybase - Crypto made simple",
       "type": "presentation",
       "author": "LUD",
       "date": "2018-09-24",
-      "links": [{"type":"slide", "url": "https://slides.com/dlion/keybase-crypto-made-simple"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://slides.com/dlion/keybase-crypto-made-simple"
+        }
+      ]
     },
     {
       "title": "Refactoring",
       "type": "presentation",
       "author": "MOG",
       "date": "2018-09-21",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/1tfJf8W8dLg_Mk7-O1sJQ-n5jAB7q34BJ/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://drive.google.com/file/d/1tfJf8W8dLg_Mk7-O1sJQ-n5jAB7q34BJ/view?usp=sharing"
+        }
+      ]
     },
     {
       "title": "Inception deck",
       "type": "presentation",
       "author": "FOM",
       "date": "2018-09-19",
-      "links": [{"type":"slide", "url": "https://drive.google.com/drive/folders/1UFDll4eQVslpnzEKQnR3zV_OvXlFH8MM"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://drive.google.com/drive/folders/1UFDll4eQVslpnzEKQnR3zV_OvXlFH8MM"
+        }
+      ]
     },
     {
       "title": "Agile è chi agile fa",
       "type": "presentation",
       "author": "MAF",
       "date": "2018-09-18",
-      "links": [{"type":"slide", "url": "https://drive.google.com/file/d/1ehylkJbfIfhVMFbYjgBRetmjg8mC_Jx6/view?usp=sharing"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://www.slideshare.net/MarcoFracassi/agile-chi-agile-fa"
+        }
+      ]
     },
     {
       "title": "Modular software using Go plugins",
       "type": "presentation",
       "author": "LUD",
       "date": "2018-09-17",
-      "links": [{"type":"slide", "url": "https://slides.com/dlion/modular-software-using-go-plugins"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://slides.com/dlion/modular-software-using-go-plugins"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "MAF",
       "date": "2018-09-14",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/2018-09-14-retrospettiva-itinerante-sede-trento/6684"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/2018-09-14-retrospettiva-itinerante-sede-trento/6684"
+        }
+      ]
     },
     {
       "title": "Outside-in TDD a-là Sandro Mancuso",
       "type": "presentation",
       "author": "DIP",
       "date": "2018-09-12",
-      "links": [{"type":"slide", "url": "https://slides.com/pierodibello/outside-in-tdd-sandro-mancuso-style-what-i-like-dislike-learned-and-noted-down/#/"}]
+      "links": [
+        {
+          "type": "slides",
+          "url": "https://slides.com/pierodibello/outside-in-tdd-sandro-mancuso-style-what-i-like-dislike-learned-and-noted-down/#/"
+        }
+      ]
     },
     {
       "title": "Retrospettiva Trento",
       "type": "facilitation",
       "author": "DIP",
       "date": "2018-09-07",
-      "links": [{"type":"slide", "url": "https://discourse.xpeppers.com/t/7-settembre-retrospettiva-settimanale-del-team-di-trento/6629"}]
+      "links": [
+        {
+          "type": "wiki",
+          "url": "https://discourse.xpeppers.com/t/7-settembre-retrospettiva-settimanale-del-team-di-trento/6629"
+        }
+      ]
     },
     {
       "title": "Something about Kotlin",
       "type": "presentation",
       "author": "BEA",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Team building: marshmallow tower",
       "type": "presentation",
       "author": "MAF",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Your own ECS Docker, Docker-gen, Nginx",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Javascript ama",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Microservices book vs my experience",
       "type": "presentation",
       "author": "COA",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Javascript async/await",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Javascript generators",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "PMZ",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Spring Config Server",
       "type": "presentation",
       "author": "PAD",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Node Js ama",
       "type": "presentation",
       "author": "IVO",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "AWS Cognito iOS vs Android integration",
       "type": "presentation",
       "author": "MAN",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Come ammortizzare il feedback negativo",
       "type": "presentation",
       "author": "MAF",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Vue Js",
       "type": "presentation",
       "author": "BOD",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Network",
       "type": "presentation",
       "author": "DED",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Firestore",
       "type": "presentation",
       "author": "BOD",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Best practices in cloud",
       "type": "presentation",
       "author": "DED",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Tecniche per scrivere e splittare user story",
       "type": "presentation",
       "author": "DIP",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "The Golden Master to rule your legacy code!",
       "type": "presentation",
       "author": "DIP",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     },
     {
       "title": "Riassunto agilecoachcamp 2018",
       "type": "presentation",
       "author": "DIP",
       "date": "",
-      "links": [{"type":"slide", "url": ""}]
+      "links": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ]
     }
   ]
 }
