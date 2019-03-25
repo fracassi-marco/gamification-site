@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import ListPage from './ListPage';
 import RankingPage from './RankingPage';
+import AddPage from './AddPage';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter } from 'react-router-dom'
 import axios from 'axios';
@@ -13,9 +14,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`${process.env.PUBLIC_URL}/data.json`)
-      .then(res => {
-        const activity = res.data.activities
+    axios.get(`https://539bk9ow41.execute-api.us-east-1.amazonaws.com/dev/read`)
+      .then(res => {        
+        const activity = res.data
         this.setState({ activities: activity });
       });
   }
@@ -29,7 +30,8 @@ class App extends React.Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className='router a1'>
               <Route exact path="/" render={() => <ListPage doSomeEvent={this.doSomeEvent.bind(this)} activities={this.state.activities}/>}/>
-              <Route path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
+              <Route exact path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
+              <Route exact path="/add" render={() => <AddPage activities={this.state.activities}/>} />
           </div>
       </BrowserRouter>
     )

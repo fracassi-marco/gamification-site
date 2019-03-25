@@ -5,7 +5,8 @@ class Menu extends Component {
     render() {
         const pages = [
             { code: "list", name: "List", url: "/" },
-            { code: "ranking", name: "Ranking", url: "/ranking" }
+            { code: "ranking", name: "Ranking", url: "/ranking" },
+            { code: "add", name: "+ Add", url: "/add" }
         ];
 
         return (

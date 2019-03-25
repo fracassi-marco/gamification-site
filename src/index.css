@@ -40,3 +40,7 @@ a, .navbar-light .navbar-brand {
 .table-striped tbody tr:nth-of-type(odd) { 
     background-color: #fbfbfb;
 }
+
+form {
+    background-color: #fbfbfb;
+}
