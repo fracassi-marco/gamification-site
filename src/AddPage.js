@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import Menu from './Menu';
-import axios from 'axios';
+import React, { Component } from 'react'
+import Menu from './Menu'
+import axios from 'axios'
+import { withRouter } from "react-router-dom"
 
 class ListPage extends Component {
     constructor(props) {
@@ -18,12 +19,9 @@ class ListPage extends Component {
 
     updateLink(id, type) {
         return (event) => {
-            debugger
             this.setState({
                 links: this.state.links.map((link, index) => {
                     if (index === id) {
-                        console.log(event.target)
-                        debugger
                         link[type] = event.target.value
                     }
                     return link
@@ -42,15 +40,17 @@ class ListPage extends Component {
 
     submit(event) {
         event.preventDefault()
-        
-        axios.post(`https://539bk9ow41.execute-api.us-east-1.amazonaws.com/dev/save`, this.state)
-            .then(console.log)
-            .catch(console.log)
 
-        //TODO: add element in general state list
-        //redirect to list
+        axios.post(`https://539bk9ow41.execute-api.us-east-1.amazonaws.com/dev/save`, this.state)
+            .then(() => {
+              //TODO: ok response
+              this.props.activityAdded(this.state)
+
+              this.props.history.push('/')
+            })
+            .catch(console.log)
     }
-    
+
     render() {
         return (
             <div>
@@ -58,7 +58,7 @@ class ListPage extends Component {
                 <form className="text-left p-3" onSubmit={this.submit.bind(this)}>
                     <div className="form-group">
                         <label htmlFor="date">Date</label>
-                        <input type="text" onChange={this.change("date")} className="form-control" placeholder="yyyy-MM-dd" />                        
+                        <input type="text" onChange={this.change("date")} className="form-control" placeholder="yyyy-MM-dd" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="author">Author</label>
@@ -102,14 +102,13 @@ class ListPage extends Component {
                             </div>
                         )
                     })}
-                    
+
                     <button type="submit" className="btn btn-primary">Save</button>
                 </form>
             </div>
-        );
+        )
     }
 }
 
-export default ListPage;
+export default withRouter(ListPage)
 
-            
