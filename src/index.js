@@ -25,15 +25,11 @@ class App extends React.Component {
     this.setState({ activities: [...this.state.activities, activity] })
   }
 
-  doSomeEvent() {
-    console.log("event!!")
-  }
-
   render() {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className='router a1'>
-              <Route exact path="/" render={() => <ListPage doSomeEvent={this.doSomeEvent.bind(this)} activities={this.state.activities}/>}/>
+              <Route exact path="/" render={() => <ListPage activities={this.state.activities}/>}/>
               <Route exact path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
               <Route exact path="/add" render={() => <AddPage activityAdded={this.activityAdded.bind(this)} activities={this.state.activities}/>} />
           </div>

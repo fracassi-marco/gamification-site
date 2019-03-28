@@ -27,7 +27,7 @@ class ListPage extends Component {
               </tr>
             </thead>
             <tbody>
-            {this.props.activities.sort((a, b) => a.date < b.date ? 1 : -1).map((activity, index) => 
+            {this.props.activities.sort((a, b) => a.date < b.date ? 1 : -1).map((activity, index) =>
               <tr key={'activity' + index}>
                 <td>{activity.date}</td>
                 <td>{activity.author}</td>
