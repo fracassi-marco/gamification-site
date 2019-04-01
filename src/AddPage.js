@@ -72,34 +72,41 @@ class ListPage extends Component {
                         <label htmlFor="title">Title</label>
                         <input type="text" onChange={this.change("title")} className="form-control" placeholder="Title" />
                     </div>
-                    <button onClick={this.addLink.bind(this)}>Add Link</button>
+                    <div className="text-right">
+                      <button className="btn btn-sm btn-secondary" type="button" onClick={this.addLink.bind(this)}>Add Link</button>
+                    </div>
                     {this.state.links.map((link, idx) => {
                         let typeId = `type-${idx}`
                         let urlId = `url-${idx}`
 
                         return (
-                            <div key={idx}>
-                                <label htmlFor={typeId}>Type</label>
-                                <input
-                                    type="text"
-                                    name={typeId}
-                                    data-id={idx}
-                                    id={typeId}
-                                    className="type"
-                                    value={this.state.links[idx].type}
-                                    onChange={this.updateLink(idx, "type").bind(this)}
-                                />
-                                <label htmlFor={urlId}>Url</label>
-                                <input
-                                type="text"
-                                name={urlId}
-                                data-id={idx}
-                                id={urlId}
-                                className="url"
-                                value={this.state.links[idx].url}
-                                onChange={this.updateLink(idx, 'url').bind(this)}
-                                />
-                            </div>
+
+                          <div className="row p-3" key={idx}>
+                              <div className="col-sm-6">
+                                  <label htmlFor={typeId}>Type</label>
+                                  <input
+                                      type="text"
+                                      name={typeId}
+                                      data-id={idx}
+                                      id={typeId}
+                                      className="form-control"
+                                      value={this.state.links[idx].type}
+                                      onChange={this.updateLink(idx, "type").bind(this)}
+                                  />
+                              </div>
+                              <div className="col-sm-6">
+                                  <label htmlFor={urlId}>Url</label>
+                                  <input
+                                  type="text"
+                                  name={urlId}
+                                  data-id={idx}
+                                  id={urlId}
+                                  className="form-control"
+                                  value={this.state.links[idx].url}
+                                  onChange={this.updateLink(idx, 'url').bind(this)}
+                                  />
+                              </div>
+                          </div>
                         )
                     })}
 
