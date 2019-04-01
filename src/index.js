@@ -21,6 +21,19 @@ class App extends React.Component {
       })
   }
 
+  isNot(activityToDelete) {
+    return (activity) => {
+      return !(activityToDelete.date === activity.date &&
+            activityToDelete.author === activity.author &&
+            activityToDelete.title === activity.title &&
+            activityToDelete.type === activity.type)
+    }
+  }
+
+  activityDeleted(activity) {
+    this.setState({ activities: this.state.activities.filter(this.isNot(activity)) })
+  }
+
   activityAdded(activity) {
     this.setState({ activities: [...this.state.activities, activity] })
   }
@@ -29,7 +42,7 @@ class App extends React.Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className='router a1'>
-              <Route exact path="/" render={() => <ListPage activities={this.state.activities}/>}/>
+              <Route exact path="/" render={() => <ListPage activityDeleted={this.activityDeleted.bind(this)} activities={this.state.activities}/>}/>
               <Route exact path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
               <Route exact path="/add" render={() => <AddPage activityAdded={this.activityAdded.bind(this)} activities={this.state.activities}/>} />
           </div>

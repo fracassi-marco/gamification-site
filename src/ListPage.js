@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
+import axios from 'axios'
 
 class ListPage extends Component {
   links(index, links) {
@@ -9,6 +10,18 @@ class ListPage extends Component {
       if (acc === "")  return prev
       return [acc, ", ", prev]
     }, "")
+  }
+
+  delete(activity) {
+    return (event) => {
+      event.preventDefault()
+
+      axios.post(`https://539bk9ow41.execute-api.us-east-1.amazonaws.com/dev/delete`, activity)
+        .then(() => {
+          this.props.activityDeleted(activity)
+        })
+        .catch(console.log)
+    }
   }
 
   render() {
@@ -24,6 +37,7 @@ class ListPage extends Component {
                 <th scope="col">Type</th>
                 <th scope="col">Title</th>
                 <th scope="col">Links</th>
+                <th scope="col">Actions</th>
               </tr>
             </thead>
             <tbody>
@@ -34,6 +48,11 @@ class ListPage extends Component {
                 <td>{activity.type}</td>
                 <td>{activity.title}</td>
                 <td>{this.links(index, activity.links)}</td>
+                <td>
+                  <button type="button" className="btn btn-sm btn-secondary" onClick={this.delete(activity).bind(this)}>
+                    <span className="fa fa-trash"></span>
+                  </button>
+                </td>
               </tr>
               )}
             </tbody>
