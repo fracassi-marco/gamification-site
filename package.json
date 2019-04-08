@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy:s3": "npm run build; aws s3 sync build/ s3://academy.xpeppers.com"
   },
   "eslintConfig": {
     "extends": "react-app"

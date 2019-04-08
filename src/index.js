@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className='router a1'>
               <Route exact path="/" render={() => <ListPage activityDeleted={this.activityDeleted.bind(this)} activities={this.state.activities}/>}/>
               <Route exact path="/ranking" render={() => <RankingPage activities={this.state.activities}/>} />
